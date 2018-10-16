@@ -1,16 +1,16 @@
-package main
+package video
 
 import (
 	"fmt"
 	"io/ioutil"
 )
 
-func main() {
-	testIf()
-	fmt.Println(testSwitch(1, 2, "+"))
-	s := grade(50)
-	fmt.Println(s)
-}
+//func main() {
+//	testIf()
+//	fmt.Println(testSwitch(1, 2, "+"))
+//	s := grade(50)
+//	fmt.Println(s)
+//}
 
 func testIf() {
 	const filename string = "abc.txt"

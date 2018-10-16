@@ -1,4 +1,4 @@
-package main
+package video
 
 import (
 	"bufio"
@@ -7,10 +7,10 @@ import (
 	"strconv"
 )
 
-func main() {
-	fmt.Println(convertToBinary(5))
-	printFile("abc.txt")
-}
+//func main() {
+//	fmt.Println(convertToBinary(5))
+//	printFile("abc.txt")
+//}
 
 func convertToBinary(n int) string {
 	result := ""

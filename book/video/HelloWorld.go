@@ -1,4 +1,4 @@
-package main
+package video
 
 import (
 	"fmt"
@@ -12,18 +12,18 @@ var (
 	cc = "sss"
 )
 
-func main() {
-	fmt.Println("Hello world!")
-	varZeroValue()
-	varInit()
-	typeDeduction()
-	shorter()
-	println(aa, bb, cc)
-	euler()
-	triangle()
-	consts()
-	enums()
-}
+//func main() {
+//	fmt.Println("Hello world!")
+//	varZeroValue()
+//	varInit()
+//	typeDeduction()
+//	shorter()
+//	println(aa, bb, cc)
+//	euler()
+//	triangle()
+//	consts()
+//	enums()
+//}
 
 func varZeroValue() {
 	var a int
